@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>磐安土特产一键购</title>
+  <meta name="description" content="磐安土特产一键购：按分类找店，点产品看介绍，直达淘宝、天猫店铺。">
+  <link rel="stylesheet" href="buy.css?v=20261105b">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">磐安好物 · 一键直达</p>
+        <h1>磐安土特产一键购</h1>
+        <p class="sub">按分类找店，点产品看介绍，直接跳转淘宝、天猫店铺。</p>
+      </div>
+      <div class="qr-box">
+        <img src="qr_buy.png" alt="扫码打开磐安土特产一键购">
+        <span>扫码打开</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="search-wrap">
+    <input id="searchInput" type="search" placeholder="搜产品、店铺或产地，例如：云峰茶、香榧、黄精" autocomplete="off">
+  </div>
+
+  <main class="layout">
+    <aside class="cats" id="catList" aria-label="产品分类"></aside>
+    <section class="content">
+      <div class="content-head">
+        <h2 id="catTitle">全部</h2>
+        <span id="resultCount" class="count"></span>
+      </div>
+      <div id="storeList" class="store-grid"></div>
+      <p class="empty" id="empty" hidden>没有找到相关店铺，换个关键词试试。</p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>店铺信息来自磐安县经济商务局《店铺》表；商品价格以店铺页面为准。</p>
+    <p>磐安土特产一键购 · 2026</p>
+  </footer>
+
+  <div class="modal" id="modal" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modalClose" aria-label="关闭">×</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="buy.js?v=20261105d"></script>
+</body>
+</html>

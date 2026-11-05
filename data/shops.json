@@ -1,0 +1,80 @@
+{
+  "updated": "2026-11-05",
+  "note": "店铺信息来自《店铺.xlsx》；除绿鹰外，具体商品和价格以店铺页面为准。",
+  "categories": ["全部", "茶叶", "香榧", "黄精", "高山产品", "药食同源糕点"],
+  "stores": [
+    {
+      "id": "lvying",
+      "name": "绿鹰茶叶旗舰店",
+      "category": "茶叶",
+      "platform": "天猫",
+      "link": "https://lvyingcy.tmall.com/shop/view_shop.htm?spm=a21xtw.29978516.0.0",
+      "desc": "磐安云峰茶代表店铺，主营高山云雾绿茶，有明前、雨前和礼盒装。",
+      "products": [
+        { "name": "磐安云峰茶 125g", "price": "¥125", "desc": "明前一级，高山云雾，浓香型，适合自饮和送礼。" },
+        { "name": "云峰茶 精品罐装", "price": "¥117", "desc": "雨前春茶，罐装，原价 299 元，适合送礼。" },
+        { "name": "云峰茶 二级 125g", "price": "¥83.3", "desc": "口粮茶，鲜爽甘醇，性价比高。" }
+      ]
+    },
+    {
+      "id": "qinglianxiang",
+      "name": "浙江磐安清连香茶业",
+      "category": "茶叶",
+      "platform": "淘宝",
+      "link": "https://shop275475509.taobao.com/?spm=a21xtw.29978516.0.0",
+      "desc": "磐安本地茶企，主营云峰茶、龙井等绿茶。",
+      "products": [
+        { "name": "磐安云峰茶", "price": "进店看价", "desc": "高山云雾绿茶，具体规格和价格以店铺为准。" },
+        { "name": "明前龙井", "price": "进店看价", "desc": "明前采摘，清香型，适合自饮。" }
+      ]
+    },
+    {
+      "id": "niandaopin",
+      "name": "念道品",
+      "category": "高山产品",
+      "platform": "淘宝",
+      "link": "https://shop431215151.taobao.com/?spm=a21xtw.29978516.0.0",
+      "desc": "磐安高山特产集合店，主营高山蔬菜、干货等。",
+      "products": [
+        { "name": "高山干货", "price": "进店看价", "desc": "高山环境自然晾晒，具体品类以店铺为准。" },
+        { "name": "高山蔬菜", "price": "进店看价", "desc": "时令高山蔬菜，新鲜直发。" }
+      ]
+    },
+    {
+      "id": "panlewei",
+      "name": "磐乐味食品",
+      "category": "药食同源糕点",
+      "platform": "淘宝",
+      "link": "https://shop126640491.taobao.com/?spm=a21xtw.29978516.0.0",
+      "desc": "磐安药食同源糕点店，主打黄精糕等本地特色点心。",
+      "products": [
+        { "name": "黄精糕", "price": "进店看价", "desc": "药食同源，口感软糯，适合做伴手礼。" },
+        { "name": "磐安特色糕点", "price": "进店看价", "desc": "本地传统点心，具体口味以店铺为准。" }
+      ]
+    },
+    {
+      "id": "fenger",
+      "name": "蜂儿香榧企业店",
+      "category": "香榧",
+      "platform": "淘宝",
+      "link": "https://shop144845102.taobao.com/?spm=a21xtw.29978516.0.0",
+      "desc": "“蜂儿”是浙江省著名商标，主营磐安香榧。",
+      "products": [
+        { "name": "磐安香榧", "price": "进店看价", "desc": "中国香榧之乡出品，颗粒饱满，开口易剥。" },
+        { "name": "香榧礼盒", "price": "进店看价", "desc": "适合送礼，规格以店铺为准。" }
+      ]
+    },
+    {
+      "id": "panwuwei",
+      "name": "磐五味健康科技企业店",
+      "category": "黄精",
+      "platform": "淘宝",
+      "link": "https://shop481555164.taobao.com/?spm=a21xtw.29978516.0.0",
+      "desc": "磐安黄精专门店，主营九蒸九晒黄精及加工品。",
+      "products": [
+        { "name": "九蒸九晒黄精", "price": "进店看价", "desc": "磐安黄精，传统九蒸九晒工艺，具体规格以店铺为准。" },
+        { "name": "黄精茶", "price": "进店看价", "desc": "黄精切片泡饮，适合日常养生。" }
+      ]
+    }
+  ]
+}
